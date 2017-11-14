@@ -6,12 +6,15 @@ hgroup, nav, section, summary, video {
 
 body {
     background-color:#F9F9F9;
-    margin:0 auto;
-    min-height:100%;
-    position:relative;
+    margin:0;
 }
 
-nav {
+#all {
+    min-height:100%;
+    /* position:relative; */
+}
+
+#header {
     background-color:white;
     height:120px;
     width:100%;
@@ -20,9 +23,12 @@ nav {
 
 /*----- Grid + Flexbox -----*/
 
+#grid-container {
+    padding-bottom:60px;
+}
+
 #grid {
     display:flex;
-    
     padding:100px;
     
     display: -webkit-box;
@@ -32,8 +38,6 @@ nav {
     display: -webkit-flex;
     
     flex-flow:row wrap;
-    padding-bottom:120px;
-    min-height: 100%;
 }
 
 .grid-item {
@@ -167,8 +171,7 @@ h1 {
 h2 {
     margin-top:115px;
     font-family: 'Roboto', sans-serif;
-    fon
-    t-weight:bold;
+    font-weight:bold;
     font-size:12px;
     text-transform:uppercase;
     text-align:center;
@@ -178,32 +181,30 @@ h2 {
 
 /*----- Footer -----*/
 
-.clear {
-    clear:both;
-}
 
-footer {
+#footer {
+    position:absolute;
     bottom:0;
-    
     font:12px 'Roboto', sans-serif, bold;
-    background-color:#f5f5f5;
     width:100%;
-    height:60px;
-    
-   
-    
+    height:60px; 
+    background-color:#f0f0f0;
 }
 
-footer p {
+#footer p {
     margin: 0px 120px;
     padding-top:20px;
+    padding-bottom:20px;
 }
 
 
 /*----- Media Queries -----*/
 
 @media screen and (max-width: 750px) and (min-width: 375px) {
-    nav {
+    #all {
+        position:relative;
+    }
+    #header {
         height:100px;  
 }  
     h1 {
@@ -213,13 +214,14 @@ footer p {
     #grid {
         padding:46px;
 }   
-    footer {
-           padding:0px;
+    #footer {
+        padding:0px;
+        position:relative;
     }
-    footer p {
+    #footer p {
         text-align:center;
         margin: 0px 0px; 
      
 }
 }
-
+ 
