@@ -1,0 +1,198 @@
+article, aside, canvas, details,
+figcaption, figure, footer, header,
+hgroup, nav, section, summary, video {
+    display: block;
+	}
+
+body {
+    background-color:#F9F9F9;
+    margin:0 auto;
+}
+
+nav {
+    background-color:white;
+    height:120px;
+    width:100%;
+    margin:0 auto;
+}
+
+/*----- Grid + Flexbox -----*/
+
+#grid {
+    display:flex;
+    
+    padding:100px;
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    
+    flex-flow:row wrap;
+}
+
+.grid-item {
+    flex:1 1 0 100px;
+    height:100px;
+    width:100px;
+    border-radius:8px;
+   
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+  
+    margin:20px;
+    margin-bottom:50px;
+    text-decoration:none;
+    color:black;
+    
+    
+}
+
+.grid-item:hover {
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+}
+
+
+.badge {
+    margin-left:80px;
+    margin-top:-160px;
+    border-radius: 50%;
+
+    width: 23px;
+    height: 23px;
+    padding: 6px;
+    
+    background: #26D827;
+    color:white;
+    text-align: center;
+    
+    font: 16px 'Roboto', sans-serif, bold;
+    
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 20px 0px   rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+}
+
+
+/*----- Profile Images -----*/
+
+#invision {
+    background-image: url("../images/invision.jpg");
+    background-repeat:none;
+    background-size:cover;
+}
+
+#sidecar {
+    background-image: url("../images/sidecar.jpg");
+    background-repeat:none;
+    background-size:cover;
+}
+
+#studioscience {
+    background-image: url("../images/studioscience.jpg");
+    background-repeat:none;
+    background-size:cover;
+}
+
+#prototypr {
+    background-image: url("../images/prototypr.jpg");
+    background-repeat:none;
+    background-size:cover;
+}
+
+#airbnb {
+    background-image: url("../images/airbnb.jpg");
+    background-repeat:none;
+    background-size:cover;
+}
+
+#adobe {
+    background-image: url("../images/adobe.jpg");
+    background-repeat:none;
+    background-size:cover;
+}
+
+#uxdesign {
+    background-image: url("../images/uxdesign.jpg");
+    background-repeat:none;
+    background-size:cover;
+}
+
+#designteam {
+    background-image: url("../images/designteam.jpg");
+    background-repeat:none;
+    background-size:cover;
+}
+
+#maeda {
+    background-image: url("../images/maeda.jpg");
+    background-repeat:none;
+    background-size:cover;
+}
+
+#maeda {
+    background-image: url("../images/maeda.jpg");
+    background-repeat:none;
+    background-size:cover;
+}
+
+#marvel {
+    background-image: url("../images/marvel.jpg");
+    background-repeat:none;
+    background-size:cover;
+}
+
+#stanford {
+    background-image: url("../images/stanford.jpg");
+    background-repeat:none;
+    background-size:cover;
+}
+
+
+
+
+/*----- Type -----*/
+
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight:800;
+    font-size:24px;
+    padding:40px 120px 0px 120px;
+    margin-top:0;
+}
+
+h2 {
+    margin-top:115px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    font-size:12px;
+    text-transform:uppercase;
+    text-align:center;
+    
+} 
+
+
+/*----- Footer -----*/
+
+
+footer {
+    position:fixed;
+    bottom:0;
+    
+    font:12px 'Roboto', sans-serif, bold;
+    background-color:#f5f5f5;
+    width:100%;
+
+    padding:20px;
+    
+}
+
+footer p {
+    margin: 0px 120px;
+}
+
