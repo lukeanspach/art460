@@ -196,3 +196,18 @@ footer p {
     margin: 0px 120px;
 }
 
+@media screen and (max-width: 750px) and (min-width: 375px) {
+    nav {
+        height:100px;  
+}  
+    h1 {
+    text-align:center;
+}
+    #grid {
+    padding:50px;
+}
+    footer p {
+    text-align:center;
+}
+}
+
