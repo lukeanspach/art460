@@ -154,6 +154,12 @@ body {
     background-size:cover;
 }
 
+#cognitive {
+    background-image: url("../images/cognitive.jpg");
+    background-repeat:none;
+    background-size:cover;
+}
+
 
 
 
